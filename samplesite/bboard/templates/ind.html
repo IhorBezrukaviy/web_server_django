@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+   <title> Главная - Доска обьявлений</title>
+ </head>
+ <body>
+  <h1>Обьявления</h1>
+  {% for b in abbs %}
+	<div>
+	   <h2> {{ b.title }} </h2>
+	   <p>  {{ b.content }}</p>
+	   <p>  {{ b.published|date:"d.m.Y "}}</p>
+	</div>
+  {% endfor %}
+ </body>
+</html>

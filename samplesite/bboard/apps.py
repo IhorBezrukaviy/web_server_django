@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class StudyConfig(AppConfig):
+class BboardConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'study'
+    name = 'bboard'
